@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAKOUM ASBL | Official</title>
+    <style>
+        :root { --blue: #1A237E; --orange: #E67E22; --gray: #F4F4F7; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        
+        /* BANNIÈRE AUTO-SESSION */
+        .top-bar { background: var(--orange); color: white; text-align: center; padding: 10px; font-weight: bold; font-size: 14px; }
+        
+        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; border-bottom: 1px solid #EEE; position: sticky; top: 0; background: white; z-index: 100; }
+        
+        .logo-box { display: flex; align-items: center; gap: 15px; }
+        .logo-placeholder { width: 40px; height: 40px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
+        
+        .hero { padding: 100px 10%; text-align: center; background: linear-gradient(to bottom, #FFF, var(--gray)); }
+        h1 { font-size: 3rem; color: var(--blue); margin-bottom: 10px; }
+        .tagline { font-size: 1.5rem; color: #555; margin-bottom: 30px; }
+        
+        .fap-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 50px 10%; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 5px solid var(--blue); }
+        .card h3 { color: var(--orange); }
+
+        .btn-kickoff { background: var(--blue); color: white; padding: 15px 30px; border-radius: 50px; text-decoration: none; display: inline-block; margin-top: 20px; transition: 0.3s; }
+        .btn-kickoff:hover { background: var(--orange); }
+        
+        footer { text-align: center; padding: 50px; font-size: 12px; color: #AAA; }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">PROCHAINE RÉUNION : 05 JANVIER 2026 - 14H00 (BRUXELLES)</div>
+
+    <header>
+        <div class="logo-box">
+            <div class="logo-placeholder">V</div>
+            <div style="font-weight: 800; font-size: 20px; letter-spacing: 1px;">VAKOUM ASBL</div>
+        </div>
+        <a href="mailto:contact@vakoum.org" class="btn-kickoff" style="padding: 10px 20px; font-size: 14px;">Contact</a>
+    </header>
+
+    <section class="hero">
+        <h1>Bâtir l'Art de Demain</h1>
+        <p class="tagline">Le trait d'union entre les talents de Bruxelles et l'énergie de Kinshasa.</p>
+        <div style="display: flex; gap: 15px; justify-content: center;">
+            <a href="#" class="btn-kickoff">Nos Projets 2026</a>
+            <a href="#" class="btn-kickoff" style="background:#FFF; color: var(--blue); border: 1px solid var(--blue);">L'Équipe</a>
+        </div>
+    </section>
+
+    <div class="fap-container">
+        <div class="card">
+            <h3>Formation</h3>
+            <p>Ateliers pro pour artistes émergents : technique, gestion et droits.</p>
+        </div>
+        <div class="card">
+            <h3>Accompagnement</h3>
+            <p>Le programme "Start Ton Art" pour structurer vos projets créatifs.</p>
+        </div>
+        <div class="card">
+            <h3>Promotion</h3>
+            <p>Mise en lumière internationale et résidences croisées Belgique-RDC.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 VAKOUM ASBL - Rue des Deux Gares 99/12, 1070 Anderlecht<br>
+        Propulsé par VAKOUM-Agent IA
+    </footer>
+
+</body>
+</html>
+          
